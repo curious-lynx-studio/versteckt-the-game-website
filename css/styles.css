@@ -10,6 +10,19 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@font-face {
+  font-family: Retro Gaming;
+  src: url('../assets/Retro\ Gaming.ttf');
+}
+
+h1 {
+  font-family: Retro Gaming;
+}
+
+body {
+  font-family: Retro Gaming !important;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -37,8 +50,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: Retro Gaming !important;
+  --font-family-monospace: Retro Gaming !important;
 }
 
 *,
@@ -48,7 +61,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Retro Gaming !important;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -60,7 +73,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Retro Gaming !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -181,7 +194,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Retro Gaming !important;
   font-size: 1em;
 }
 
@@ -243,7 +256,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: Retro Gaming !important;
   font-size: inherit;
   line-height: inherit;
 }
@@ -361,7 +374,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Retro Gaming !important;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -5564,7 +5577,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Retro Gaming !important;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5666,7 +5679,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Retro Gaming !important;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9649,7 +9662,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: Retro Gaming !important;
 }
 
 .text-justify {
@@ -10054,7 +10067,7 @@ h3 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Retro Gaming !important;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
